@@ -1,0 +1,5 @@
+{ "servers": { "oneover": {
+  "type": "http",
+  "url": "https://api.oneover.com/functions/v1/mcp",
+  "headers": { "Authorization": "Bearer ${input:oneover_key}" } } },
+  "inputs": [ { "id": "oneover_key", "type": "promptString", "description": "OneOver API key (oo_live_...)", "password": true } ] }

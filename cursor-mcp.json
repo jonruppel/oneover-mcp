@@ -1,0 +1,3 @@
+{ "mcpServers": { "oneover": {
+  "url": "https://api.oneover.com/functions/v1/mcp",
+  "headers": { "Authorization": "Bearer oo_live_YOUR_KEY" } } } }
